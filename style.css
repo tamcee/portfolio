@@ -1,0 +1,559 @@
+#hero{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+   
+}
+
+.footer{
+  background-image: url(./assets/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+ 
+}
+
+.herodiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    padding:0px;
+    
+}
+
+.main-h1 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    font-size: 4rem;
+   opacity: 0.8;
+   text-align: center;
+  
+   
+  }
+  .about-me-h{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    font-size: 3rem;
+   opacity: 0.8;
+   margin-bottom: 30px;
+   padding-left: 80px;
+  }
+  .skills-h{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    font-size: 3rem;
+   opacity: 0.8;
+   margin-bottom: 40px;
+  
+  }
+
+  .contact-me-h{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 4rem;
+   opacity: 0.8;
+   margin-bottom: 50px;
+   margin-top: 80px;
+  text-align: center;
+  background: -webkit-linear-gradient(#ffffff, #d3d1d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+  
+  .main-h2 {
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  opacity: 0.95;
+  
+  
+  font-size: 2.7rem;
+  }
+
+  .about-me-p{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  opacity: 1;
+  padding-left: 80px;
+  padding-right: 80px;
+  
+  font-size: 1.4rem;
+  }
+  
+  
+  li {
+    list-style: none;
+    
+  }
+  .social-bar{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+
+  }
+  
+  #rest{
+  background: #0f0e0e;
+background: linear-gradient(180deg,rgba(15, 14, 14, 1) 0%, rgba(166, 162, 162, 1) 46%, rgba(15, 14, 14, 1) 85%);
+  }
+.about-meouter{
+display: flex;
+
+
+}
+.about-me-text{
+  margin-top: 80px;
+}
+
+  .ball {
+    transition: transform .7s ease-in-out;
+  }
+  .ball:hover {
+    transform: rotate(180deg);
+  }
+.skills{
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+  }
+
+.skill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  h3{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    font-size: 1.6rem;
+    opacity: 0.8;
+   
+  }
+  p{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  opacity: 1;
+  
+  
+  font-size: 1.3rem;
+  }
+  
+}
+
+.skill.two{
+  width: 94%;
+  justify-content: right;
+  
+}
+.skill.three{
+  width: 80%;
+}
+.skill.four{
+  width: 85%;
+  justify-content: right;
+}
+.skill-text-outer{
+  border: 2px darkgray solid;
+  padding: 10px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border-style: groove;
+  
+}
+
+.skill-text{
+  z-index: 2;
+  position: relative;
+  margin-left: 50px;
+  
+  }
+  
+.starimg{
+  z-index: 1;
+  opacity: 0.95;
+}
+.starimg.one,.starimg.three{
+position: absolute;
+left:70px;
+}
+.starimg.two{
+  position: absolute;
+ left: 460px;
+}
+.resume-btn{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  opacity: 1;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.3rem;
+}
+.social-bar-cme{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  opacity: 0.6;
+  margin-bottom: 90px;
+  
+
+
+}
+.cme{
+  transition: transform 0.3s ease-in-out;
+}
+.cme:hover {
+  transform: scale(1.2); /* Enlarge to 120% on hover */
+}
+.connect{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(241, 238, 238);
+  opacity: 0.8;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 50px;
+  font-size: 1.6rem;
+  }
+  
+.footer{
+  margin-top: 50px;
+  padding: 20px;
+}
+
+@media (max-width:480px){
+  /* Cover */
+  .main-h1{
+    font-size: 2.5rem;
+  }
+  .main-h2{
+    font-size: 1.5rem;
+
+  }
+  .social-bar svg{
+    height: 20px;
+  }
+/* About-me */
+.about-me-h{
+  font-size: 2rem;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.about-me-p{
+  font-size: 1rem;
+  padding: 0;
+
+}
+.about-me-text{
+  margin-left: 30px;
+  display: inline;
+}
+.about-meouter{
+ align-items: center;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.ball img{
+  height: 200px;
+  
+}
+.ball{
+  margin: 0;
+  float: right;
+  transition: none;
+  display: inline;
+}
+
+/* Skills */
+.skills-h{
+  font-size: 2rem;
+}
+.skill-text{
+  h3{
+    font-size: 1.5rem;
+  }
+  p{
+font-size: 1rem;
+  }
+}
+
+.skill img{
+  height: 100px;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+.skills{
+ display: flex;
+ flex-direction: column;
+ padding-right: 20px;
+}
+.skill.three{
+  width: 95%;
+align-items: left;
+justify-content: left;
+}
+.skill.four{
+  width: 95%;
+align-items: left;
+justify-content: left;
+}
+
+.starimg.one,.starimg.three{
+  left: 3px;
+}
+.starimg.two{
+left: 3px;
+}
+.resume-btn{
+  font-size: 1.2rem;
+}
+
+/*Contact-Me*/
+.contact-me-h{
+  font-size: 2.8rem;
+}
+.connect{
+  font-size: 1.2rem;
+}
+.social-bar-cme svg{
+  height: 28px;
+}
+}
+
+@media (min-width:481px) and (max-width: 786px){
+  /* Cover */
+  .main-h1{
+    font-size: 3.5rem;
+  }
+  .main-h2{
+    font-size: 2.5rem;
+
+  }
+  .social-bar svg{
+    height: 20px;
+  }
+/* About-me */
+.about-me-h{
+  font-size: 2rem;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.about-me-p{
+  font-size: 1rem;
+  padding: 0;
+
+}
+.about-me-text{
+  margin-left: 30px;
+  display: inline;
+}
+.about-meouter{
+ align-items: center;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.ball img{
+  height: 200px;
+  
+}
+.ball{
+  margin: 0;
+  float: right;
+  display: inline;
+}
+
+/* Skills */
+.skills-h{
+  font-size: 2rem;
+}
+.skill-text{
+  h3{
+    font-size: 1.5rem;
+  }
+  p{
+font-size: 1rem;
+  }
+}
+
+.skill img{
+  height: 100px;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+
+ 
+ padding-right: 20px;
+}
+.skill.three{
+  width: 95%;
+align-items: left;
+justify-content: left;
+}
+.skill.four{
+  width: 95%;
+align-items: left;
+justify-content: left;
+}
+.skill.two{
+  justify-content: left;
+}
+.skill.one{
+  width: 95%;
+  justify-content: left;
+}
+
+.starimg.one,.starimg.three{
+  left: 3px;
+}
+.starimg.two{
+left: 3px;
+}
+.resume-btn{
+  font-size: 1.2rem;
+}
+
+/*Contact-Me*/
+.contact-me-h{
+  font-size: 2.8rem;
+}
+.connect{
+  font-size: 1.2rem;
+}
+.social-bar-cme svg{
+  height: 28px;
+}
+}
+
+@media (min-width:787px) and (max-width: 1024px){
+  .main-h1{
+    font-size: 3rem;
+  }
+  .main-h2{
+    font-size: 2rem;
+
+  }
+  .social-bar svg{
+    height: 20px;
+  }
+/* About-me */
+.about-me-h{
+  font-size: 2.5rem;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.about-me-p{
+  font-size: 1.2rem;
+  padding: 0;
+
+}
+.about-me-text{
+  margin-left: 30px;
+  
+}
+.about-meouter{
+ align-items: center;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.ball img{
+  height: 320px;
+  
+}
+.ball{
+  margin: 0;
+  float: right;
+  transition: none;
+  display: inline;
+}
+/* Skills */
+.skills-h{
+  font-size: 2.5rem;
+}
+.skill-text{
+  h3{
+    font-size: 1.8rem;
+  }
+  p{
+font-size: 1.2rem;
+  }
+}
+
+.skill img{
+  height: 140px;
+}
+.skills{
+  padding-left: 30px;
+  
+}
+.starimg.one,.starimg.three{
+  position: absolute;
+  left: 20px;
+  }
+  .starimg.two{
+    position: absolute;
+    left: 200px;
+    }
+
+.skill.one{
+  justify-content: center;
+  width: 100%;
+}
+  .skill.two{
+    width: 97%;
+    justify-content: right;
+    
+  }
+  .skill.three{
+    width: 87%;
+  }
+  .skill.four{
+    width: 85%;
+    justify-content: right;
+  }
+  .resume-btn{
+    font-size: 1.2rem;
+  }
+  
+  /*Contact-Me*/
+  .contact-me-h{
+    font-size: 3rem;
+  }
+  .connect{
+    font-size: 1.2rem;
+  }
+  .social-bar-cme svg{
+    height: 30px;
+  }
+}
+
